@@ -17,15 +17,13 @@ pip install django
 * cd to the cloned project
 * run
 ```
-python ./servers/ClassicServer.py
+cd mysite
+python manage.py runserver
 ```
-* the server listen to port 18830
-* run the client as
-```
-python ./clients/SimpleClient.py
-```
-* watch the message on the server.
+* the server listen to port 8000 by default
+* in the browser, run
+http://localhost:8000/ml/
 
 ## How to Contribute
 
-Add more features to the webapplication for educational purposes.
+Add more features to the web application for educational purposes.
